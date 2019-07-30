@@ -1,0 +1,57 @@
+{
+        "page":{
+            "name": "about",
+            "layout":{
+                "columns": [
+                    {
+                        "key":"column_1",
+                        "name": "Column",
+                        "path": "/src/components/layouts/column.jsx",
+                        "children":[
+                            {
+                                "name": "FirstComponent",
+                                "path": "/src/components/custom/first-component.jsx",
+                                "key": "first_component_1",
+                                "props":{
+                                    "style":{
+                                        "color":"red"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "column_2",
+                        "name": "Column",
+                        "path": "/src/components/layouts/column.jsx",
+                        "children":[
+                            {
+                                "key": "second_component_1",
+                                "name": "SecondComponent",
+                                "path": "/src/components/custom/second-component.jsx",
+                                "children":[
+                                    {
+                                        "key": "leaf_component_1",
+                                        "name": "LeafComponent",
+                                        "path":"/src/components/custom/leaf-component.jsx"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "third_component_1",
+                                "name": "ThirdComponent",
+                                "path": "/src/components/custom/third-component.jsx",
+                                "children":[
+                                    {
+                                        "key": "leaf_component_1",
+                                        "name": "LeafComponent",
+                                        "path":"/src/components/custom/leaf-component.jsx"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+}
