@@ -11,7 +11,7 @@
                             {
                                 "name": "FirstComponent",
                                 "path": "/src/components/custom/first-component.jsx",
-                                "key": "first_component_1",
+                                "key": "first_component_1"
                             }
                         ]
                     },
