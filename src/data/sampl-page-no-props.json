@@ -12,11 +12,6 @@
                                 "name": "FirstComponent",
                                 "path": "/src/components/custom/first-component.jsx",
                                 "key": "first_component_1",
-                                "props":{
-                                    "style":{
-                                        "color":"red"
-                                    }
-                                }
                             }
                         ]
                     },
